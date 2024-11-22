@@ -1,0 +1,9 @@
+.sidebar-active::after{
+    content: "";
+    position: relative;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    background-color: black;
+    /* to be completed */
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Color Palette */
+:root {
+  /* Primary Colors */
+  --primary-color: #4c6ef5;
+  --secondary-color: #ff6b6b;
+  --background-color: #f9fafb;
+
+  /* Text Colors */
+  --text-color: #333;
+  --text-primary: #374151; /* Dark Text */
+  --text-secondary: #6b7280; /* Medium Text */
+  --text-light: #f3f4f6; /* Light Text */
+  --text-link: #1e40af; /* Blue for Links */
+  --text-muted: #9ca3af; /* Gray for muted text */
+  --font-family: 'Poppins', sans-serif;
+
+  /* Border Colors */
+  --border-color: #e5e7eb; /* Gray Border */
+
+  /* Button Colors */
+  --button-bg: #1d4ed8; /* Blue Background */
+  --button-text: #ffffff; /* White Text */
+  --button-hover-bg: #2563eb; /* Darker Blue for Hover */
+
+  /* Card Colors */
+  --card-bg: #ffffff; /* White */
+  --card-shadow: rgba(0, 0, 0, 0.1); /* Subtle Shadow for Cards */
+}
+
+/* Spacing and Sizes */
+:root {
+  --space-xs: 0.5rem;  /* 8px */
+  --space-sm: 1rem;    /* 16px */
+  --space-md: 2rem;    /* 32px */
+  --space-lg: 3rem;    /* 48px */
+
+  --radius-sm: 0.375rem; /* Small border radius */
+  --radius-md: 0.5rem;   /* Medium border radius */
+  --radius-lg: 1rem;     /* Large border radius */
+}
+
+/* Font Sizes */
+:root {
+  --font-size-xs: 0.75rem;   /* 12px */
+  --font-size-sm: 0.875rem;  /* 14px */
+  --font-size-md: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem;  /* 20px */
+  --font-size-2xl: 1.5rem;  /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+}
+
+/* Breakpoints for responsive design */
+:root {
+  --sm: 640px;   /* Mobile */
+  --md: 768px;   /* Tablet */
+  --lg: 1024px;  /* Desktop */
+  --xl: 1280px;  /* Large Desktop */
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
